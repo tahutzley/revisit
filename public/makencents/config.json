@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.2.0/src/parser/StudyConfigSchema.json",
+  "studyMetadata": { "title": "MakeNCents Study", "version": "pilot", "authors": ["You"], "date": "2025-09-29", "description": "Pilot", "organizations": ["Your Org"] },
+  "uiConfig": { "logoPath": "makencents/assets/logo.png", "contactEmail": "you@example.com", "withProgressBar": true, "withSidebar": true },
+  "components": {
+    "task": {
+      "type": "website",
+      "path": "makencents/wrapper.html",
+      "instruction": "Complete the budgeting tasks in the app.",
+      "response": [
+        { "id": "q1", "type": "longText", "prompt": "Tell us about your experience.", "location": "belowStimulus" }
+      ],
+      "withSidebar": true
+    }
+  },
+  "sequence": { "order": "fixed", "components": ["task"] }
+}
