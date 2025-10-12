@@ -5,7 +5,7 @@
   "components": {
     "task": {
       "type": "website",
-      "path": "makencents/wrapper.html",
+      "path": "public/makencents/index.html",
       "instruction": "Complete the budgeting tasks in the app.",
       "response": [
         { "id": "q1", "type": "longText", "prompt": "Tell us about your experience.", "location": "belowStimulus" }
