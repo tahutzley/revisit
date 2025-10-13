@@ -2,16 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.2.0/src/parser/StudyConfigSchema.json",
   "studyMetadata": {
     "title": "MakeNCents Study",
-    "version": "pilot",
-    "authors": ["You"],
-    "date": "2025-09-29",
-    "description": "Pilot",
-    "organizations": ["Your Org"]
+    "version": "prototype",
+    "authors": ["MakeNCents Team"],
+    "date": "2025-10-13",
+    "description": "First protoype for MakeNCents personal finance app.",
+    "organizations": ["WPI"]
   },
 
   "uiConfig": {
-    "logoPath": "revisitAssets/revisitLogoSquare.svg",
-    "contactEmail": "you@example.com",
+    "logoPath": "makencents/assets/piggbank6.png",
+    "contactEmail": "gr-datavismqp@wpi.edu",
     "withProgressBar": true,
     "withSidebar": false,
     "recordScreen": true,

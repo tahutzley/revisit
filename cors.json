@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://revisit-c15c0.web.app"],
+    "method": ["GET", "POST", "PUT", "DELETE"],
+    "maxAgeSeconds": 3600,
+    "responseHeader": ["Content-Type"]
+  }
+]
